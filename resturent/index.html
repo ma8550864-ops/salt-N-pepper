@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>saltNpaper</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!--Nav Bar -->
+    <div class="navbar">
+        <!--logo-->
+        <div class="logo">
+            <img
+                src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcR7dJfpi3oPXt12LlD1zVxzD01NKmVfemCBaSmtIJDeKkTaKQ4_">
+        </div>
+        <!--Nav Bar-->
+        <div class="nav">
+            <a href="#">HOME</a>
+            <a href="#">ABOUT US</a>
+            <a href="#">PUBLICATION</a>
+            <a href="#">BRANCHES</a>
+            <!-- User Icon -->
+            <i class="fa-regular fa-user user-icon"></i>
+
+            <!-- Cart -->
+            <div class="cart">
+                <i class="fa-solid fa-cart-shopping"></i>
+                <span>0</span>
+            </div>
+
+            <!-- Order Button -->
+            <button class="order-btn">
+                Order Online
+                <i class="fa-solid fa-arrow-right"></i>
+            </button>
+
+        </div>
+    </div>
+    <div class="banner">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTah00eMVa_pKZ_JFJrhJaqEw5-PYUY7FcPMQACyouiC1QjkcNm"
+            </div>
+        <div class="sec-banner">
+            <h1>CHOSE BY CATAGERY</h1>
+            <img
+                src="data:image/jpeg;base64,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">
+            
+            <img
+                src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcT8wjCYMmqRonvH9CVeOpJG71gKjnJbNMqPzA5rTjoIcop-3Tfk">
+            
+            <img
+                src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRiWre8tAzgcHVEpG3eveZKBHzXDCHiQFEIxAyO_VCGMMi1_Pgo">
+            
+            <img
+                src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSLmPE_GUCZoo17GQW0F857klW98N8hE3nAl7Wb4nG7HWew7mGp">
+            
+            <img
+                src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQZnE44_sS3P7QX641OCxFMXerEbDp0fHUXYnJoBl8bYaZ0bn65">
+           <div class="name">
+             <h1 class="soups">our-signature-soups</h1> <h1>sandwiches</h1><h1>our-signature-burger</h1><h1>chicken </h1> <h1>chinese</h1>
+           </div>
+        </div>
+    <div id ="third-banner">
+         <div id ="box-1"  >
+            <img id="image" src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQr-uCcFUrY6H33hewrQ8ZdHsuy5s5zevofTJQUds1J9JKqAvtq"
+            >
+        </div>
+     
+    <div id ="box-2">
+      <p class="small">SALT'N PEPPER RESTAURANT</p>
+      <h2>Discover The Taste!</h2>
+      <p class="desc">
+        The Salt'n Pepper is Pakistan's most recognized and distinguished
+        hospitality brand with a history of market innovation and excellence
+        in restaurants chain operation. The Salt'n Pepper Restaurants are
+        regarded and respected as the number one restaurant entity in
+        Pakistan by local and foreign observers.
+      </p>
+      <a href="#" class="btn">Learn More </a>
+    </div>
+ </div>
+<div id="forth-banner">
+    <h1>OUR DEALS</h1>
+    <div id="pictures">
+  <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTgtZ8_bEYSX0kmWLr_oTNmPFp_A2auZRd8N6mbAsB1a4Kane5K" >
+    
+   
+  <img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSYZvwPGjJzyKJ8TJPk2b8miZWuqfeFBNfmMft5riCU74GfB5fZ">
+  
+    
+        <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTuwInUDOiLdme3amkgJlfMUPNnhhpNn9-McY2d6XcZmI7PhiWJ">
+    </div>
+    <div id="CATAGERY">
+<h2>superior</h2>
+<h2>Delux</h2>
+<h2>Vip</h2>
+    </div>
+    
+</div>
+<div id="fifth-banner">
+    <diV id="text-detail"><p class="small">SALT'N PEPPER RESTAURANT</p>
+      <h2>Discover The Taste!</h2>
+      <p class="desc">
+       Menu Of The Week
+Something Special
+For You To Try This Month!
+Chicken Drumsticks (2 Pcs), Chicken Chilli Dry (1/2 Portion), Egg Fried Rice, Chicken Chow Mein, Dessert.
+<br>
+Chinese
+Rs. 2390/-.
+      </p>
+      <a href="#" class="btn">Learn More </a></diV>
+<diV id="chinese">
+<img src="https://static.tossdown.com/images/7b45eae6-13bf-4d43-880e-ddaa2a356d16.webp">
+</diV>
+</div>
+<footer>
+<div class="footer-main">
+
+            <!-- LEFT SIDE -->
+            <div class="footer-about">
+
+                <div class="logo">
+                    <div class="red-line"></div>
+
+                    <h2>Salt'n Pepper</h2>
+
+                    <div class="restaurant">
+                        <span></span>
+                        Restaurant
+                        <span></span>
+                    </div>
+                </div>
+
+                <p>
+                    The Salt’n Pepper Restaurants are an example of
+                    gracious dining, outstanding service, extraordinary
+                    classic and contemporary cuisine. The restaurants
+                    have become the ultimate dining destinations in
+                    Lahore. From family occasions to business dinner and
+                    moments of the heart, this place is where
+                    unforgettable memories are made.
+                </p>
+
+                <div class="policies">
+                    <a href="#">Terms & conditions</a>
+                    <a href="#">Privacy policy</a>
+                </div>
+
+            </div>
+
+
+            <!-- SITE LINKS -->
+            <div class="footer-links">
+
+                <h3>Site Links</h3>
+
+                <a href="#">Home</a>
+                <a href="#">About us</a>
+                <a href="#">Deals</a>
+                <a href="#">Photos</a>
+                <a href="#">Publications</a>
+                <a href="#">Get a Franchise</a>
+                <a href="#">Feedback</a>
+                <a href="#">Contact us</a>
+
+            </div>
+
+
+            <!-- CONTACT -->
+            <div class="footer-contact">
+
+                <h3>Contact Us</h3>
+
+                <h4>Head office Address</h4>
+
+                <p>Foodconsults (Pvt) Ltd</p>
+
+                <p>
+                    23-Usman Block, New<br>
+                    GardenTown, Lahore,<br>
+                    Pakistan
+                </p>
+
+                <h4>Head office number</h4>
+
+                <p>+92 42 358 509 31</p>
+                <p>+92 42 358 509 30</p>
+
+                <h4>Email Address</h4>
+
+                <p>snfood@brain.net.pk</p>
+
+                <h4>Free delivery number</h4>
+
+                <p>+92 42 111 100 678</p>
+                <p>+92 03 111 444 610</p>
+
+            </div>
+
+
+            <!-- SOCIAL -->
+            <div class="footer-social">
+
+                <h3>Follow Us</h3>
+
+                <div class="social-icons">
+
+                    <a href="#">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+
+                    <a href="#">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+
+                    <a href="#">
+                        <i class="fa-brands fa-twitter"></i>
+                    </a>
+
+                </div>
+
+
+                <div class="app-button">
+                    <i class="fa-brands fa-apple"></i>
+
+                    <div>
+                        <small>Download on the</small>
+                        <strong>App Store</strong>
+                    </div>
+                </div>
+
+
+                <div class="app-button">
+
+                    <i class="fa-brands fa-google-play"></i>
+
+                    <div>
+                        <small>GET IT ON</small>
+                        <strong>Google Play</strong>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- BOTTOM -->
+        <div class="footer-bottom">
+
+            <p>
+                © 2026 Salt n Pepper Restaurant
+            </p>
+
+            <p>
+                Powered by tossdown.com
+            </p>
+
+        </div>
+</footer>
+</body>
+ 
+
+</html>
